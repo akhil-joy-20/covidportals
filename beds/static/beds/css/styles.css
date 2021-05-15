@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* index */
+.bg-navy{
+    background-color: rgb(7, 7, 104);
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.hospital_login_nav{
+    color: #fff;
+    font-size: large;
+}
+.navbar-brand:hover,.hospital_login_nav:hover{
+    color: tomato;
+}
+.nav-patient{
+    background-color: rgb(223, 202, 17);
+}
+.nav-patient:hover{
+    background-color: tomato;
+}
+/* .navbar-toggler{
+    background-color: #fff;
+} */
+.footer {
+    background-color: #ffcc00;
+    color: black;
+    height: 100px;
+  }
+
+
+/* summary */
+.card_group{
+    padding-top: 5%;
+}
+
+/* login */
+.error ul {
+    font-size: 12px;
+    color: tomato;
+    border: 1px solid tomato;
+  }
+  
+.error ul>li {
+    text-align: left;
+  }
